@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="309.0" prefWidth="541.0" style="-fx-background-color: #000008;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Version">
+   <children>
+      <BorderPane prefHeight="114.0" prefWidth="541.0" style="-fx-background-color: #000d2a;">
+         <center>
+            <Label alignment="CENTER" prefHeight="58.0" prefWidth="321.0" text="CODE 2  MVC" BorderPane.alignment="CENTER">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.3824999928474426" green="0.8500000238418579" blue="0.6805586814880371" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Arial" size="36.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+      <Label layoutX="190.0" layoutY="137.0" prefHeight="36.0" prefWidth="161.0" text="Version 0.0.5" textFill="#b9b3b3">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutY="277.0" prefHeight="36.0" prefWidth="148.0" text="This is test project." textFill="#aea9a9">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

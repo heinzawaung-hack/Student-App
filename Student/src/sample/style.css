@@ -1,0 +1,11 @@
+.tableViewBackground{
+       -fx-background-color : #005255 ; /*linear-gradient(to right, #fffbd5 , #b20a2c); */
+}
+
+.vBoxBackground{
+       -fx-background-color : #005255
+ }
+
+.button{
+    -fx-font-family : Arial;
+}

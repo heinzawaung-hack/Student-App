@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="173.0" prefWidth="664.0" style="-fx-background-color: #005255;" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Edit.Edit">
+   <children>
+      <TextField fx:id="nameField" layoutX="14.0" layoutY="37.0" prefHeight="35.0" prefWidth="149.0" promptText="Name">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailField" layoutX="183.0" layoutY="37.0" prefHeight="35.0" prefWidth="149.0" promptText="Email">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </TextField>
+      <RadioButton fx:id="maleRadio" layoutX="346.0" layoutY="46.0" mnemonicParsing="false" selected="true" text="Male" textFill="#fcfcfc">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="femaleRadio" layoutX="408.0" layoutY="46.0" mnemonicParsing="false" text="Female" textFill="#fcf9f9" toggleGroup="$gender">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </RadioButton>
+      <DatePicker fx:id="dobPicker" layoutX="501.0" layoutY="37.0" prefHeight="35.0" prefWidth="149.0" promptText="DOB" />
+      <Button fx:id="updateButton" layoutX="442.0" layoutY="124.0" mnemonicParsing="false" onAction="#updateAction" prefHeight="35.0" prefWidth="149.0" text="Update">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="61.0" layoutY="124.0" mnemonicParsing="false" onAction="#cancelAction" prefHeight="35.0" prefWidth="149.0" text="Cancel">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
